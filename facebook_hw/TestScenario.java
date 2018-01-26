@@ -10,18 +10,6 @@ import org.testng.annotations.Test;
  */
 public class TestScenario extends BasePage {
 
-    /**
-     * Scenario: User should not be able to register without gender selection
-     Step 1: Enter First Name
-     Step 2: Enter Last Name
-     Step 3: Enter Mobile Number
-     Step 4: Enter Password
-     Step 5: Select Birthday
-     Step 6: Click on Create Account button
-     Step 7: Assertion = Verify missing gender error message displays as
-     "Please choose a gender. You can change who can see this later."
-     */
-
     @Test
     public void testOne() throws InterruptedException {
 
