@@ -10,13 +10,8 @@ import org.openqa.selenium.support.ui.Select;
  */
 public class BasePage extends DriverWrapper {
 
-
-    private static String url;
-
-
 //    Method to navigate to url
     public void navigateToUrl(String url) {
-        this.url = url;
         getDriver().navigate().to(url);
     }
 
