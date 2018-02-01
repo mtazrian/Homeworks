@@ -21,7 +21,7 @@ public class TestScenario extends BasePage {
         navigateToUrl("https://www.darksky.net/");
 
 
-//        Create Array to add for loop results into
+//        Create Array for timeRecieved values from website
         ArrayList timeReceived = new ArrayList();
 
 
@@ -44,7 +44,7 @@ public class TestScenario extends BasePage {
         cal.setTime(new Date());
 
 
-//        Array created for expected time values
+//        Array created for timeExpected values
         ArrayList timeExpected = new ArrayList();
 
 
