@@ -29,7 +29,7 @@ public class TestScenario extends BasePage {
         List<WebElement> elements = getDriver().findElements(By.xpath("//*[@id=\"timeline\"]/div/div[3]"));
 
 
-//        For loop to print formatted list of elements
+//        For loop to print formatted list of elements and add to Array
         for (WebElement s1 : elements) {
             String text = s1.getText().replaceAll("\n", "").replaceAll("\n", "");
             timeReceived.add(text.toUpperCase());
