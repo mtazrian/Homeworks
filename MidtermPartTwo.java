@@ -17,7 +17,7 @@ public class MidtermPartTwo extends BasePage {
     @Test
     public void MidtermPartTwo() {
 
-//        Midterm Question One
+//        Midterm Question Two
 
         ArrayList textAdded = new ArrayList();
 
@@ -31,7 +31,7 @@ public class MidtermPartTwo extends BasePage {
         System.out.println(textAdded.get(2));
         System.out.println(textAdded.get(4));
 
-//        Midterm Question Two
+//        Midterm Question Three
 
         HashMap<String,String> hm = new HashMap<>();
 
